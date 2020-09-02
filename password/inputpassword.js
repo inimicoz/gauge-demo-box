@@ -179,7 +179,7 @@
         }
 
     }
-    customElements.define("com-fd-djaja-sap-sac-inputpassword", InputPassword);
+    customElements.define("sap-sac-inputpassword", InputPassword);
 
     // UTILS
     function loadthis(that) {
