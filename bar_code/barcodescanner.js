@@ -130,7 +130,7 @@
             var that = this;
             if (this._firstConnection === 0) {
                 this._firstConnection = 1;
-                let quaggaminjs = "http://localhost/SAC/sacbarcodescanner/quagga.min.js";
+                let quaggaminjs = "https://inimicoz.github.io/gauge-demo-box/bar_code/quagga.min.js";
                 async function LoadLibs() {
                     try {
                         await loadScript(quaggaminjs, _shadowRoot);
