@@ -1,6 +1,6 @@
 (function () {
     let d3script = document.createElement("script");
-    d3script.src = "https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.7.1/svg.js";
+    d3script.src = "https://inimicoz.github.io/gauge-demo-box/treechart/svg.js";
     d3script.async = false;
     document.head.appendChild(d3script);
 
