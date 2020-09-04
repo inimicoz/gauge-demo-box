@@ -5,7 +5,7 @@
 		
 	let count = 1;
 	let script = document.createElement('script');
-	script.src = 'https://d3js.org/d3.v5.min.js';
+	script.src = 'https://inimicoz.github.io/gauge-demo-box/custom_bar/Custom_barchartv2';
 	script.charset='utf-8'
 	script.type='text/javascript'
 	let scriptAppend = false;
