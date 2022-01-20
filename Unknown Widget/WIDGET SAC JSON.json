@@ -1,0 +1,67 @@
+{
+  "name": "Run Function",
+  "description": "Run PaPM Function",
+  "eula": "",
+  "vendor": "I. Imizcoz",
+  "license": "",
+  "id": "papm.run.func",
+  "newInstancePrefix": "RunFunc",
+  "version": "1.0.1",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "papm-run-func",
+      "url": "https://raw.githubusercontent.com/inimicoz/gauge-demo-box/master/Unknown%20Widget/Main.js",
+      "integrity": "",
+      "ignoreIntegrity": true
+    },
+    {
+      "kind": "builder",
+      "tag": "papm-run-func-builder",
+      "url": "https://raw.githubusercontent.com/inimicoz/gauge-demo-box/master/Unknown%20Widget/Builder.js",
+      "integrity": "",
+      "ignoreIntegrity": true
+    }
+  ],
+  "properties": {
+    "env_id": {
+      "type": "string",
+      "description": "Environment"
+    },
+    "ver": {
+      "type": "string",
+      "description": "Version"
+    },
+    "fid": {
+      "type": "string",
+      "description": "Function"
+    },
+    "proc_id": {
+      "type": "string",
+      "description": "Process"
+    },
+    "activity": {
+      "type": "string",
+      "description": "Activity"
+    }
+  },
+  "methods": {
+    "run": {
+      "description": "Run PaPM Function",
+      "parameters": [
+				{
+					"name": "system",
+					"type": "string",
+					"description": ""
+				},
+        {
+					"name": "tenant",
+					"type": "string",
+					"description": ""
+				}
+			],
+      "returnType": "string[]"
+    }
+  },
+  "events": {}
+}
