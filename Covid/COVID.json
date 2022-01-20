@@ -1,0 +1,34 @@
+{
+  "name": "Covid Get",
+  "description": "A sample custom widget get",
+  "eula": "",
+  "vendor": "i. imizcoz",
+  "license": "",
+  "id": "main covid test",
+  "newInstancePrefix": "Covid",
+  "version": "0.0.1",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "main covid test",
+      "url": "https://raw.githubusercontent.com/inimicoz/gauge-demo-box/master/Covid/Main.js",
+      "integrity": "",
+      "ignoreIntegrity": true
+    }
+  ],
+  "properties": {},
+  "methods": {
+    "get": {
+      "description": "Wrapper for jQuery get",
+      "parameters": [
+        {
+          "name": "url",
+          "type": "string",
+          "description": ""
+        }
+      ],
+      "returnType": "string[]"
+    }
+  },
+  "events": {}
+}
